@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="#Home" title="Home"  description="Home">
+
+    <siteMapNode url="#NotAuthenticated" title="LoggedOut">
+      <siteMapNode url="" title="Sign In" description="Please sign in." />
+    </siteMapNode>
+
+    <siteMapNode url="#State" title="State" description="State-level Administrator Menu">
+      <siteMapNode url="Event-SignUp.aspx#Events" title="Events">
+        <siteMapNode url="Event-SignUp.aspx" title="Conference Event Sign-Up" description="Conference event sign-up"/>
+        <siteMapNode url="Maint-Event.aspx" title="Event Maintenance" description="Conference event maintenance"/>
+        <siteMapNode url="Maint-EventPerfCriteria.aspx" title="Criteria Maintenance" description="Performance event judging criteria maintenance"/>
+      </siteMapNode>
+      <siteMapNode url="Maint-Tests.aspx#Tests" title="Testing">
+        <siteMapNode url="Test-Import.aspx" title="Import" description="Import event test questions for a conference"/>
+        <siteMapNode url="Maint-Tests.aspx" title="Maintenance" description="Create, edit, and view tests"/>
+        <siteMapNode url="Test-GenerateSignIn.aspx" title="Sign-Ins" description="Generate testing sign-in credentials"/>
+      </siteMapNode>
+      <siteMapNode url="Maint-Scores.aspx#Scores" title="Scoring">
+        <siteMapNode url="Maint-Scores.aspx" title="Score Entry" description="Enter scores for conference events"/>
+        <siteMapNode url="Rpt-Scores.aspx" title="Score Reports" description="Conference events score reports"/>
+      </siteMapNode>
+      <siteMapNode url="Maint-Conference.aspx#Conferences" title="Conferences">
+        <siteMapNode url="Maint-Conference.aspx" title="Maintenance" description="Create, edit, and view conferences" />
+        <siteMapNode url="Conf-Chaperones.aspx" title="Advisers/Chaperones" description="Conference adviser/chaperone maintenance" />
+        <siteMapNode url="Conf-GenerateJudgeSignIn.aspx" title="Judge Sign-Ins" description="Generate judge sign-ins for performance events" />
+        <siteMapNode url="Rpt-ConfHotels.aspx" title="Hotel Packages" description="Conference hotel assignments and invoices" />
+        <siteMapNode url="Rpt-ConfInvoice.aspx" title="Conference Invoices" description="Conference invoices and list of all attendees" />
+        <siteMapNode url="Rpt-ConfReports.aspx" title="Conference Reports" description="Conference events summary, details, and list of all winners" />
+        <siteMapNode url="Conf-Nationals.aspx" title="Nationals" description="National conference participants" />
+      </siteMapNode>
+      <siteMapNode url="Rpt-Chapter.aspx#Reports" title="Reports">
+        <siteMapNode url="Rpt-Chapter.aspx" title="Chapter Reports" description="List of conference attendees, students by events, events by students, and chapter events" />
+        <siteMapNode url="Rpt-Region.aspx" title="Regional Reports" description="Region-wide summary reports" />
+        <siteMapNode url="Rpt-State.aspx" title="State Reports" description="State-wide summary reports" />
+      </siteMapNode>
+      <siteMapNode url="Maint-Chapter.aspx#Organization" title="Organization">
+        <siteMapNode url="Maint-Chapter.aspx" title="Chapters" description="Chapter maintenance" />
+        <siteMapNode url="Maint-Region.aspx" title="Regions" description="Region maintenance" />
+        <siteMapNode url="Maint-State.aspx" title="States" description="State maintenance" />
+      </siteMapNode>
+      <siteMapNode url="Import.aspx" title="Import" description="Import external data" />
+    </siteMapNode>
+
+    <siteMapNode url="#Region" title="Region" description="Region-level Administrator Menu">
+      <siteMapNode url="Event-SignUp.aspx#R-Events" title="Events">
+        <siteMapNode url="Event-SignUp.aspx#R-SignUp" title="Conference Event Sign-Up" description="Conference event sign-up"/>
+      </siteMapNode>
+      <siteMapNode url="Maint-Tests.aspx#R-Tests" title="Testing">
+        <siteMapNode url="Test-GenerateSignIn.aspx#R-SignIns" title="Sign-Ins" description="Generate online testing sign-in credentials"/>
+      </siteMapNode>
+      <siteMapNode url="Maint-Scores.aspx#R-Scores" title="Scoring">
+        <siteMapNode url="Maint-Scores.aspx#R-ScoreMaint" title="Score Entry" description="Enter scores for conference events"/>
+        <siteMapNode url="Rpt-Scores.aspx#R-ScoreRpt" title="Score Reports" description="Conference events score reports"/>
+      </siteMapNode>
+      <siteMapNode url="Maint-Conference.aspx#R-Conferences" title="Conferences">
+        <siteMapNode url="Maint-Conference.aspx#R-ConfMaint" title="Maintenance" description="Create, edit, and view conferences" />
+        <siteMapNode url="Conf-Chaperones.aspx#R-ConfChap" title="Advisers/Chaperones" description="Conference adviser/chaperone maintenance" />
+        <siteMapNode url="Conf-GenerateJudgeSignIn.aspx#R-ConfJudge" title="Judge Sign-Ins" description="Generate judge sign-ins for performance events" />
+        <siteMapNode url="Rpt-ConfHotels.aspx#R-Hotel" title="Hotel Packages" description="Conference hotel assignments and invoices" />
+        <siteMapNode url="Rpt-ConfInvoice.aspx#R-ConfInv" title="Conference Invoices" description="Conference invoices and list of all attendees" />
+        <siteMapNode url="Rpt-ConfReports.aspx#R-ConfRpts" title="Conference Reports" description="Conference events summary, details, and list of all winners" />
+      </siteMapNode>
+      <siteMapNode url="Rpt-Chapter.aspx#R-Reports" title="Reports">
+        <siteMapNode url="Rpt-Chapter.aspx#R-ChpReports" title="Chapter Reports" description="List of conference attendees, students by events, events by students, and chapter events" />
+        <siteMapNode url="Rpt-Region.aspx#R-RegReports" title="Regional Reports" description="Region-wide summary reports" />
+      </siteMapNode>
+      <siteMapNode url="Maint-Chapter.aspx#R-Organization" title="Organization">
+        <siteMapNode url="Maint-Chapter.aspx#R-Chapter" title="Chapters" description="Chapter maintenance" />
+        <siteMapNode url="Maint-Region.aspx#R-Region" title="Regions" description="Region maintenance" />
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="#Chapter" title="Chapter" description="Chapter-level Administrator Menu">
+      <siteMapNode url="Event-SignUp.aspx#C-Events" title="Events">
+        <siteMapNode url="Event-SignUp.aspx#C-SignUp" title="Conference Event Sign-Up" description="Conference event sign-up"/>
+      </siteMapNode>
+      <!--
+        <siteMapNode url="Rpt-Scores.aspx#C-ScoreRpt" title="Score Reports" description="Conference events score reports"/>
+      -->
+        <siteMapNode url="Maint-Conference.aspx#C-Conferences" title="Conferences">
+        <siteMapNode url="Maint-Conference.aspx#C-ConfMaint" title="Maintenance" description="Create, edit, and view conferences" />
+        <siteMapNode url="Conf-Chaperones.aspx#C-ConfChap" title="Advisers/Chaperones" description="Conference adviser/chaperone maintenance" />
+        <siteMapNode url="Rpt-ConfHotels.aspx#C-Hotel" title="Hotel Packages" description="Conference hotel assignments and invoices" />
+        <siteMapNode url="Rpt-ConfInvoice.aspx#C-ConfInv" title="Conference Invoices" description="Conference invoices and list of all attendees" />
+        <siteMapNode url="Conf-Nationals.aspx#C-Nat" title="Nationals" description="National conference participants" />
+      </siteMapNode>
+      <siteMapNode url="Rpt-Chapter.aspx#C-Reports" title="Reports">
+        <siteMapNode url="Rpt-Chapter.aspx#C-ChpReports" title="Chapter Reports" description="List of conference attendees, students by events, events by students, and chapter events" />
+      </siteMapNode>
+      <siteMapNode url="Maint-Chapter.aspx#C-Organization" title="Organization">
+        <siteMapNode url="Maint-Chapter.aspx#C-Chapter" title="Chapters" description="Chapter maintenance" />
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="#JudgingEvent" title="JudgingEvent" description="Event Judging Menu">
+      <siteMapNode url="#Judge-ScoreEntry" title="Judging">
+        <siteMapNode url="#ScoreEntry" title="Score Entry" description="Performance event score entry"/>
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="#TakingTest" title="TakingTest" description="Test Taking Menu">
+      <siteMapNode url="#TestSelection" title="Tests">
+        <siteMapNode url="#Selection" title="Test Selection" description="Conference test selection"/>
+      </siteMapNode>
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

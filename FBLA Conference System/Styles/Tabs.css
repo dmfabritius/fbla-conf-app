@@ -1,0 +1,50 @@
+﻿.gray .ajax__tab_header 
+{
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: 200;
+    /*
+    background:url(../img/tab-line.png) repeat-x bottom;
+    */
+    display:block;
+}
+.gray .ajax__tab_header .ajax__tab_outer 
+{
+    background:url(../img/tab.png) no-repeat left top;
+    border-color:#222;
+    color:#222;
+    padding-left:10px;
+    margin-right:3px;
+}
+.gray .ajax__tab_header .ajax__tab_inner 
+{
+    background:url(../img/tab.png) no-repeat right top;
+    border-color:#666;
+    color:#666;
+    padding:3px 10px 2px 0px;
+}
+.gray .ajax__tab_hover .ajax__tab_inner 
+{
+    color:#000;
+}
+.gray .ajax__tab_active .ajax__tab_outer 
+{
+    background:url(../img/tab.png) no-repeat 0pt -40px;
+    border-bottom-color:#ffffff;
+}
+.gray .ajax__tab_active .ajax__tab_inner 
+{
+    background:url(../img/tab.png) no-repeat right -40px;
+    color:#000;
+    border-color:#333
+}
+.gray .ajax__tab_body 
+{
+    font-family:verdana,tahoma,helvetica;
+    font-size:10pt;
+    background-color:transparent;
+    /*
+    border:solid 1px #d7d7d7;
+    border-top-width:0;
+    */
+}
